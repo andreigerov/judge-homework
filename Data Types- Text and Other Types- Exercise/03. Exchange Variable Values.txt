@@ -1,0 +1,23 @@
+
+namespace ConsoleApplication2
+{
+    using System;
+
+    public class SumOfDigits
+    {
+        public static void Main()
+        {
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+
+            int tempA = b;
+            int tempB = a;
+
+            a = b;
+            b = tempB;
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+        }  
+   }
+}

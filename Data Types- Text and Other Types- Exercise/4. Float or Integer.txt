@@ -1,0 +1,22 @@
+
+namespace ConsoleApplication2
+{
+    using System;
+
+    public class SumOfDigits
+    {
+        public static void Main()
+        {
+            var number = double.Parse(Console.ReadLine());
+
+            if (true)
+            {
+                Console.WriteLine(Math.Round(number));
+            }
+            else
+            {
+                Console.WriteLine((int)number);
+            }
+        }  
+   }
+}

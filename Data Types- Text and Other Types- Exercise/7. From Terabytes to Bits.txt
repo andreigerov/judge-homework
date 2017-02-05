@@ -1,0 +1,15 @@
+
+namespace ConsoleApplication2
+{
+    using System;
+
+    public class SumOfDigits
+    {
+        public static void Main()
+        {
+            double terabytes = double.Parse(Console.ReadLine());
+
+            Console.WriteLine(terabytes * 1024 * 1024 * 1024 * 1024 * 8);
+        }  
+   }
+}

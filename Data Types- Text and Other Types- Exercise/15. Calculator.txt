@@ -1,0 +1,37 @@
+
+namespace ConsoleApplication2
+{
+    using System;
+
+    public class SumOfDigits
+    {
+        public static void Main()
+        {
+            int number1 = int.Parse(Console.ReadLine());
+            char symbol = char.Parse(Console.ReadLine());
+            int number2 = int.Parse(Console.ReadLine());
+            var result = 0;
+
+            switch (symbol)
+            {
+                case '*':
+                    result = number1 * number2;
+                    break;
+                case '/':
+                    result = number1 / number2;
+                    break;
+                case '+':
+                    result = number1 + number2;
+                    break;
+                case '-':
+                    result = number1 - number2;
+                    break;
+
+                default:
+                    break;
+            }
+
+            Console.WriteLine("{0} {1} {2} = {3}",number1,symbol,number2,result);
+        }
+    }
+}
